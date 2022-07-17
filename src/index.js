@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Footer from './layout/footer';
-import Header from './layout/Header';
-import Content from './layout/Content';
-import ScreenDetail from './pages/screenDetail';
-import AboutUs from './pages/AboutUs';
+import Content from './component/layout/Content';
+import Footer from './component/layout/footer';
+import Header from './component/layout/Header';
+import ScreenDetail from './component/pages/screenDetail';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter} from 'react-router-dom';
 
@@ -17,8 +16,8 @@ root.render(
     {/* <Header/>
     <Content/>
     <Footer/> */}
-   {/* <ScreenDetail/> */}
-   <AboutUs/>
+   <ScreenDetail/>
+   {/* <AboutUs/> */}
   </BrowserRouter>
   // </React.StrictMode>
 );

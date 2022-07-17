@@ -25,10 +25,7 @@ export default class AboutUs extends Component {
                             sửa chữa điện thoại.
                         </p>
                         <p><img className="image1" src="image/IMG_4044 (1).jfif"></img></p>
-
-            
-                    
-                        
+      
                    
                 </div>
                 <div className="vision">

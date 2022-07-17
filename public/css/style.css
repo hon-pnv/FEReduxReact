@@ -49,10 +49,13 @@
 .star{
     color: yellow;
 }
-.image{
-    width: 800px;
+.imagee{
+    width: 500px;
     height: auto;
-    padding-left: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
    
 }
 
@@ -70,22 +73,21 @@
     grid-template-columns: 700px 700px;
 }
 .price{
-    padding-left: 500px;
+    text-align: center;
    
 }
 .title{
-    padding-left: 400px;
+    text-align: center;
    
 }
 .detail_contact{
     align-items: center;
 }
 .detail_contact{
-    background-color: #CCCCCC;
+    background-color: yellow;
+    text-align: center;
 }
 .detail_contact_a{
     color: black;
-    padding-left: 500px;
-
 }
 

@@ -5,7 +5,7 @@ export default class ScreenDetail extends Component {
             <div className="ScreenDetail">
                 <div className="ScreenDetail_item">
                     <nav className="linking">
-                        <a className="linking" href="http://localhost:3000/">Trang chủ</a>
+                        <a className="linking" href="#">Trang chủ</a>
                         <span className="divider">/</span>
                         <a className="linking" href="#">Sửa điện thoại SamSung</a>
                         <span className="divider">/</span>
@@ -14,7 +14,7 @@ export default class ScreenDetail extends Component {
                     <div></div>                   
                     <div className="detail_item">
                         
-                       <p ><img className="image" src="https://huydungmobile.com/wp-content/uploads/2021/05/thay-mat-kinh-iphone-7-plus-201x201.jpg" /></p>
+                       <p ><img className="imagee" src="https://huydungmobile.com/wp-content/uploads/2021/05/thay-mat-kinh-iphone-7-plus-201x201.jpg" /></p>
                         <div className="title">
                         <p>Độ vỏ iPhone Xs Max lên iPhone 13 Pro Max</p>
                         </div>
@@ -51,7 +51,7 @@ export default class ScreenDetail extends Component {
                     <br></br>
                   
                     <div className="detail_contact">
-                        <a href="#" className="detail_contact_a"> Liên hệ trực tiếp</a>
+                        <a href="#" className="detail_contact_a"> <p>Liên hệ trực tiếp</p></a>
                       
                     </div>      
                 </div>    
