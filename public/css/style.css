@@ -1,4 +1,4 @@
-
+/* Footer */
 .content{
     padding-left: 150px;
 }
@@ -33,5 +33,59 @@
     background-image: url("https://icdn.dantri.com.vn/thumb_w/640/2019/03/29/…-kinh-dien-thoai-bi-vo-nutdocx-1553833141156.jpeg");
     background-color: #CCCCCC;  
     
+}
+
+/*---------------------screen detail ------------------*/
+.ScreenDetail{
+    position: relative;
+    margin-left: 300px;
+    margin-right: 300px;
+   
+
+}
+.linking{
+    color: black;
+}
+.star{
+    color: yellow;
+}
+.image{
+    width: 800px;
+    height: auto;
+    padding-left: 350px;
+   
+}
+
+.detail_item{
+    background-color: #fff;    
+    width: 1000px;
+    justify-content: center;
+}
+.detail_item1{
+    display: grid;
+    grid-template-columns: 700px 700px;
+}
+.detail_item2{
+    display: grid;
+    grid-template-columns: 700px 700px;
+}
+.price{
+    padding-left: 500px;
+   
+}
+.title{
+    padding-left: 400px;
+   
+}
+.detail_contact{
+    align-items: center;
+}
+.detail_contact{
+    background-color: #CCCCCC;
+}
+.detail_contact_a{
+    color: black;
+    padding-left: 500px;
+
 }
 
