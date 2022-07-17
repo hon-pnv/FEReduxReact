@@ -35,46 +35,54 @@
     
 }
 
-/*---------------------screen detail ------------------*/
-.ScreenDetail{
-    position: relative;
-    margin-left: 300px;
-    margin-right: 300px;
+/*---------------------PhoneCase detail ------------------*/
+.PhoneCaseDetail{
+    justify-content: center;
+    box-shadow: 1px 1px 1px #ffffff12, 0 0 10px #98959594, 0 0 8px #908c8c00;
    
 
 }
 .linking{
-    color: black;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    align-items: center;
 }
 .star{
     color: yellow;
 }
 .image{
-    width: 800px;
+    width: 500px;
     height: auto;
-    padding-left: 350px;
-   
+    display: block;
+    margin: auto;
 }
 
-.detail_item{
-    background-color: #fff;    
-    width: 1000px;
+.detail_item {
+    background-color: #fff;
+    width: 100%;
     justify-content: center;
 }
-.detail_item1{
+
+
+
+.detail_item1 {
     display: grid;
-    grid-template-columns: 700px 700px;
+    grid-template-columns: 50% 50%;
+    margin: 0rem 3rem;
 }
-.detail_item2{
+
+.detail_item2 {
     display: grid;
-    grid-template-columns: 700px 700px;
+    grid-template-columns: 50% 50%;
+    margin: 0rem 3rem;
 }
 .price{
-    padding-left: 500px;
+    text-align: center;
+    color: red;
    
 }
 .title{
-    padding-left: 400px;
+    text-align: center;
    
 }
 .detail_contact{
@@ -88,4 +96,13 @@
     padding-left: 500px;
 
 }
-
+.case_color{
+    display: flex;
+    justify-content: center;
+}
+.change_case_img{
+    width: 250px;
+}
+.detail_service{
+    
+}
