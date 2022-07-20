@@ -13,10 +13,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
   <BrowserRouter>
-    {/* <Header/>
+    <Header/>
     <Content/>
-    <Footer/> */}
-   <ScreenDetail/>
+    <Footer/>
+   {/* <ScreenDetail/> */}
    {/* <AboutUs/> */}
   </BrowserRouter>
   // </React.StrictMode>

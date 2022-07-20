@@ -51,7 +51,7 @@
 }
 .search form {
     display: flex;
-    border: solid 2px;
+    border: solid #d5cdd0 1px;
     padding: 3px;
     margin-left: 8px;
     /* box-shadow: 0px 0px 5px 5px #eeecec; */
@@ -60,10 +60,12 @@
 
 .menu_center{
     display: flex;
-    /* padding-left: 45%; */
+    margin-left:130px;
+    padding-top: 19px;
 }
 .menu_center a{
     text-decoration: none;
+
 }
 .menu_center a:hover{
     text-decoration: none;

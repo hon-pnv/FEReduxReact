@@ -14,21 +14,24 @@
     color: white;
 
 }
-.titel{
+.link_a{
     color: white;
 }
 .container {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
 .price-wrapper{
     color: red;
+    text-align: center;
 }
+
 .prd{
     
     background-color: #fff;    
     width: 193px;
+    text-align: center;
     
 }
 .prd :hover{
